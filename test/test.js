@@ -14,7 +14,7 @@ test('로그인', async t => {
 });
 test('로그아웃', async t => {
     await t
-    .click('.asdtools_list > li')
+    .click('.asdtasdasdools_list > li')
     .typeText('#mem_id', 'tjrgus515')
     .typeText('#pwd', 'qatest1!')
     .click('#divG_H_LOGIN_LAYER > a.login_btn.mt_20')
