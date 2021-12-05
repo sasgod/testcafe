@@ -7,5 +7,5 @@ fixture `이투스닷컴`
 test('로그인', async t => {
     // Test code
     await t
-    .click('.tools_list > li')
+    .click('#mArticle > div.box_floating_video > div > div > div.wrap_btn > a.link.floating_close > img')
 });
